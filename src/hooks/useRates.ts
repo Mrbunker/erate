@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 
 // open.er-api.com：免费、无需 key、支持 CORS。返回 rates 为各货币对 1 USD 的汇率。
 const ENDPOINT = "https://open.er-api.com/v6/latest/USD";
@@ -24,35 +24,30 @@ export function useRates(): UseRatesResult {
   const [rates, setRates] = useState<Record<string, number>>({ USD: 1 });
   const [status, setStatus] = useState<RatesStatus>("loading");
   const [updatedAt, setUpdatedAt] = useState<string | null>(null);
-  const fetchedRef = useRef(false);
 
   useEffect(() => {
-    if (fetchedRef.current) return;
-    fetchedRef.current = true;
+    const controller = new AbortController();
 
-    let cancelled = false;
     (async () => {
       try {
-        const res = await fetch(ENDPOINT);
+        const res = await fetch(ENDPOINT, { signal: controller.signal });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const data: ErApiResponse = await res.json();
-        if (cancelled) return;
+        if (controller.signal.aborted) return;
         if (data.result !== "success" || !data.rates) {
           throw new Error(data.error_type || "bad response");
         }
         setRates(data.rates);
         setUpdatedAt(data.time_last_update_utc ?? null);
         setStatus("ready");
-      } catch {
-        if (cancelled) return;
-        // 失败时保留 USD:1，保证界面可输入
+      } catch (err) {
+        // AbortError 是 StrictMode 卸载造成的，忽略；其余才算真正失败
+        if (controller.signal.aborted || (err as Error)?.name === "AbortError") return;
         setStatus("error");
       }
     })();
 
-    return () => {
-      cancelled = true;
-    };
+    return () => controller.abort();
   }, []);
 
   const getRate = (code: string): number => {
