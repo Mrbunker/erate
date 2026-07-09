@@ -1,57 +1,39 @@
-# React + TypeScript + Vite
+# erate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+多货币实时换算计算器。多行货币输入，修改任一行其余行基于 USD 交叉汇率自动联动；支持原生 HTML5 拖拽排序、增删行、localStorage 持久化，内置 170+ 种 ISO 4217 货币元数据。
 
-Currently, two official plugins are available:
+在线体验：<https://mrbunker.github.io/erate/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 技术栈
 
-## Expanding the ESLint configuration
+- React 18 + TypeScript + Vite
+- Tailwind CSS 3
+- 字体：Fraunces / DM Sans / IBM Plex Mono
+- 汇率数据源：[open.er-api.com](https://open.er-api.com/)（免费、无需 key、支持 CORS）
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 功能
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- 多行货币输入，每行 = 货币选择器 + 金额输入框
+- 基于 USD 交叉汇率联动：修改任意一行，其他行自动换算
+- 原生 HTML5 拖拽排序（仅桌面端）
+- 增删行，至少保留 1 行
+- localStorage 持久化（行配置 + 金额）
+- 货币选择器：搜索、常用/其他分组、已添加货币禁用、三级响应式展示
+
+## 本地开发
+
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 构建与检查
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  extends: [
-    // other configs...
-    // Enable lint rules for React
-    reactX.configs['recommended-typescript'],
-    // Enable lint rules for React DOM
-    reactDom.configs.recommended,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```bash
+npm run build   # 生产构建
+npm run check   # TypeScript 类型检查
 ```
+
+## 部署
+
+通过 GitHub Actions 自动部署到 GitHub Pages（`.github/workflows/deploy.yml`）。`main` 分支推送时触发构建，Vite 的 `base` 在 CI 环境下设为 `/erate/`。
