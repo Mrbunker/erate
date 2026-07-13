@@ -5,6 +5,9 @@ on:
     tags: ["v*"]
   workflow_dispatch:
 
+env:
+  FLUTTER_VERSION: "3.35.4"
+
 jobs:
   android:
     runs-on: ubuntu-latest
@@ -16,7 +19,7 @@ jobs:
           java-version: "17"
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: "3.35.4"
+          flutter-version: ${{ env.FLUTTER_VERSION }}
           channel: stable
           cache: true
       - run: flutter pub get
@@ -26,54 +29,18 @@ jobs:
           name: android-apk
           path: build/app/outputs/flutter-apk/*.apk
 
-  ios:
-    runs-on: macos-latest
-    continue-on-error: true
-    steps:
-      - uses: actions/checkout@v4
-      - uses: subosito/flutter-action@v2
-        with:
-          flutter-version: "3.35.4"
-          channel: stable
-          cache: true
-      - name: Ensure iOS platform
-        run: |
-          if [ ! -d ios ]; then
-            flutter create --platforms=ios --project-name erate --org com.example .
-          fi
-      - run: flutter pub get
-      - name: CocoaPods install
-        working-directory: ios
-        run: |
-          pod repo update
-          pod install
-      - run: flutter build ios --release --no-codesign
-      - name: Package Runner.app
-        run: |
-          APP_PATH=$(find build/ios/iphoneos -maxdepth 2 -name 'Runner.app' -type d | head -n1)
-          echo "app: $APP_PATH"
-          mkdir -p Payload
-          cp -R "$APP_PATH" Payload/
-          zip -qry erate-ios-unsigned.ipa Payload
-      - uses: actions/upload-artifact@v4
-        with:
-          name: ios-ipa-unsigned
-          path: erate-ios-unsigned.ipa
-
   macos:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: "3.35.4"
+          flutter-version: ${{ env.FLUTTER_VERSION }}
           channel: stable
           cache: true
-      - run: flutter config --enable-macos-desktop
       - run: flutter pub get
       - run: flutter build macos --release
-      - name: Zip macOS app
-        run: |
+      - run: |
           cd build/macos/Build/Products/Release
           zip -qry ../../../../../erate-macos.zip erate.app
       - uses: actions/upload-artifact@v4
@@ -81,43 +48,47 @@ jobs:
           name: macos-app
           path: erate-macos.zip
 
-  windows:
-    runs-on: windows-latest
+  ios:
+    runs-on: macos-latest
     continue-on-error: true
     steps:
       - uses: actions/checkout@v4
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: "3.35.4"
+          flutter-version: ${{ env.FLUTTER_VERSION }}
           channel: stable
           cache: true
-      - name: Verify Visual Studio
-        shell: pwsh
+      - name: Ensure iOS platform
         run: |
-          & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -products * `
-            -requires Microsoft.VisualStudio.Workload.NativeDesktop `
-            -property installationPath
-      - run: flutter config --enable-windows-desktop
+          [ -d ios ] || flutter create --platforms=ios --project-name erate --org com.example .
       - run: flutter pub get
-      - name: Manual CMake configure with VS 2022
-        shell: pwsh
+      - run: cd ios && pod install --repo-update
+      - run: flutter build ios --release --no-codesign
+      - name: Package IPA
         run: |
-          flutter build windows --release --verbose 2>&1 | Tee-Object -FilePath first-try.log
-          if ($LASTEXITCODE -ne 0) {
-            Write-Host "Retry with explicit VS 2022 CMake generator..."
-            Remove-Item -Recurse -Force build/windows -ErrorAction SilentlyContinue
-            $flutterRoot = (flutter --version --machine | ConvertFrom-Json).flutterRoot
-            $env:FLUTTER_ROOT = $flutterRoot
-            cmake -S windows -B build/windows/x64 -G "Visual Studio 17 2022" -A x64 `
-              -DFLUTTER_TARGET_PLATFORM=windows-x64 `
-              -DCMAKE_BUILD_TYPE=Release
-            cmake --build build/windows/x64 --config Release --target INSTALL
-          }
-      - name: Zip Windows build
+          APP=$(find build/ios/iphoneos -maxdepth 2 -name 'Runner.app' -type d | head -n1)
+          mkdir -p Payload && cp -R "$APP" Payload/
+          zip -qry erate-ios-unsigned.ipa Payload
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ios-ipa-unsigned
+          path: erate-ios-unsigned.ipa
+
+  windows:
+    runs-on: windows-2022
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+      - run: flutter pub get
+      - run: flutter build windows --release
+      - name: Zip
         shell: pwsh
-        run: |
-          $dir = if (Test-Path 'build/windows/x64/runner/Release') { 'build/windows/x64/runner/Release' } else { 'build/windows/runner/Release' }
-          Compress-Archive -Path "$dir/*" -DestinationPath erate-windows.zip
+        run: Compress-Archive -Path build/windows/x64/runner/Release/* -DestinationPath erate-windows.zip
       - uses: actions/upload-artifact@v4
         with:
           name: windows-app
@@ -128,20 +99,17 @@ jobs:
     continue-on-error: true
     steps:
       - uses: actions/checkout@v4
-      - name: Install Linux desktop deps
-        run: |
+      - run: |
           sudo apt-get update
           sudo apt-get install -y ninja-build libgtk-3-dev libglu1-mesa
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: "3.35.4"
+          flutter-version: ${{ env.FLUTTER_VERSION }}
           channel: stable
           cache: true
-      - run: flutter config --enable-linux-desktop
       - run: flutter pub get
       - run: flutter build linux --release
-      - name: Tar Linux build
-        run: tar -czf erate-linux.tar.gz -C build/linux/x64/release/bundle .
+      - run: tar -czf erate-linux.tar.gz -C build/linux/x64/release/bundle .
       - uses: actions/upload-artifact@v4
         with:
           name: linux-app
