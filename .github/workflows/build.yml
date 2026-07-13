@@ -2,7 +2,6 @@ name: Build Multi-Platform Artifacts
 
 on:
   push:
-    branches: [dev/flutter]
     tags: ["v*"]
   workflow_dispatch:
 
