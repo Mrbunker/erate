@@ -1,0 +1,3300 @@
+.github/workflows/pages.yml
+  s_92ed303feeb135::t_ba18c7a6ca3fa8 1-49 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7646cb1552231d4cc91","tool_type":"agent","tool_id":"Write","line_ranges":[{"Range":[1,49]}]}]}
+macos/Flutter/Flutter-Release.xcconfig
+  s_92ed303feeb135::t_9373b554622b67 1-2 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,2]}]}]}
+macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+  s_92ed303feeb135::t_9373b554622b67 1-99 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,99]}]}]}
+macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+  s_92ed303feeb135::t_9373b554622b67 1-8 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,8]}]}]}
+macos/Runner/MainFlutterWindow.swift
+  s_92ed303feeb135::t_9373b554622b67 1-15 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,15]}]}]}
+macos/Runner/Info.plist
+  s_92ed303feeb135::t_9373b554622b67 1-32 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,32]}]}]}
+macos/Runner/Configs/Debug.xcconfig
+  s_92ed303feeb135::t_9373b554622b67 1-2 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,2]}]}]}
+windows/runner/utils.cpp
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-65 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,65]}]}]}
+linux/flutter/generated_plugin_registrant.h
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-15 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,15]}]}]}
+android/app/src/profile/AndroidManifest.xml
+  s_92ed303feeb135::t_9373b554622b67 1-7 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,7]}]}]}
+windows/runner/Runner.rc
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-121 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,121]}]}]}
+linux/runner/my_application.cc
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-144 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,144]}]}]}
+macos/Runner.xcworkspace/contents.xcworkspacedata
+  s_92ed303feeb135::t_9373b554622b67 1-10 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,10]}]}]}
+linux/runner/main.cc
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-6 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,6]}]}]}
+android/gradle/wrapper/gradle-wrapper.properties
+  s_92ed303feeb135::t_9373b554622b67 1-5 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,5]}]}]}
+linux/runner/my_application.h
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-18 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,18]}]}]}
+windows/flutter/generated_plugin_registrant.h
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-15 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,15]}]}]}
+android/gradle.properties
+  s_92ed303feeb135::t_9373b554622b67 1-3 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,3]}]}]}
+macos/Runner/DebugProfile.entitlements
+  s_92ed303feeb135::t_9373b554622b67 1-14 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,14]}]}]}
+macos/RunnerTests/RunnerTests.swift
+  s_92ed303feeb135::t_9373b554622b67 1-12 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,12]}]}]}
+linux/.gitignore
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Single":1}]}]}
+android/build.gradle.kts
+  s_92ed303feeb135::t_9373b554622b67 1-24 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,24]}]}]}
+macos/Runner/Configs/Warnings.xcconfig
+  s_92ed303feeb135::t_9373b554622b67 1-13 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,13]}]}]}
+android/settings.gradle.kts
+  s_92ed303feeb135::t_9373b554622b67 1-26 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,26]}]}]}
+windows/runner/win32_window.cpp
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-288 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,288]}]}]}
+lib/widgets/keypad.dart
+  s_92ed303feeb135::t_d1e65b26935b91 20-32,34-41 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ad9b6cb1552231d4cd87","tool_type":"agent","tool_id":"Edit","line_ranges":[{"Range":[20,32]},{"Range":[34,41]}]}]}
+  h_a20d12f47dc660 96,134
+  s_92ed303feeb135::t_234d413c328bf2 33,82,99,124,162 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ac1c6cb1552231d4cd29","tool_type":"agent","tool_id":"Edit","line_ranges":[{"Single":33},{"Single":82},{"Single":99},{"Single":124},{"Single":162}]}]}
+  s_92ed303feeb135::t_cbf7a50a52486a 76,80,122,159 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ac2c6cb1552231d4cd2f","tool_type":"agent","tool_id":"Edit","line_ranges":[{"Single":76},{"Single":80},{"Single":122},{"Single":159}]}]}
+  s_92ed303feeb135::t_630cb4564b587b 49-50,55,77,81,95,123,160-161 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ad036cb1552231d4cd66","tool_type":"agent","tool_id":"Edit","line_ranges":[{"Range":[49,50]},{"Single":55},{"Single":77},{"Single":81},{"Single":95},{"Single":123},{"Range":[160,161]}]}]}
+  s_92ed303feeb135::t_884b499d166353 3-4 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a8e16cb1552231d4ccc3","tool_type":"agent","tool_id":"Edit","line_ranges":[{"Range":[3,4]}]}]}
+  s_92ed303feeb135::t_60658c0bc927f0 42-48,51-54,56-75,78-79 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54adaf6cb1552231d4cd8d","tool_type":"agent","tool_id":"Edit","line_ranges":[{"Range":[42,48]},{"Range":[51,54]},{"Range":[56,75]},{"Range":[78,79]}]}]}
+  s_92ed303feeb135::t_2f510813c0485a 114,146-148 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a8e96cb1552231d4ccc6","tool_type":"agent","tool_id":"Edit","line_ranges":[{"Single":114},{"Range":[146,148]}]}]}
+  s_92ed303feeb135::t_a8be11325879bd 145 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54aa2c6cb1552231d4ccfa","tool_type":"agent","tool_id":"Edit","line_ranges":[{"Single":145}]}]}
+  s_92ed303feeb135::t_8ec1aece1b807e 1-2
+  s_92ed303feeb135::t_58ef839aa42c4d 5-7,17-19
+  s_92ed303feeb135::t_f8563b3f9ce84b 83-85,92-94
+  s_92ed303feeb135::t_954bdc323cce2c 100-102,111-113
+  s_92ed303feeb135::t_f833c9c5d0a481 115-117,119-121
+  s_92ed303feeb135::t_4b693d85eda59a 149-151,156-158
+  s_92ed303feeb135::t_e6273aa72570db 163-165
+windows/runner/CMakeLists.txt
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-40 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,40]}]}]}
+lib/models/currency.dart
+  s_92ed303feeb135::t_9373b554622b67 1-13 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,13]}]}]}
+android/app/src/main/res/drawable/launch_background.xml
+  s_92ed303feeb135::t_9373b554622b67 1-12 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,12]}]}]}
+android/app/src/main/res/values-night/styles.xml
+  s_92ed303feeb135::t_9373b554622b67 1-18 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,18]}]}]}
+web/index.html
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-38 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,38]}]}]}
+windows/runner/flutter_window.cpp
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-71 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,71]}]}]}
+windows/runner/utils.h
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-19 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,19]}]}]}
+lib/services/rate_service.dart
+  s_92ed303feeb135::t_9373b554622b67 1-90 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,90]}]}]}
+macos/.gitignore
+  s_92ed303feeb135::t_9373b554622b67 1-7 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,7]}]}]}
+README.md
+  s_92ed303feeb135::t_9373b554622b67 1-46 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,46]}]}]}
+macos/Flutter/Flutter-Debug.xcconfig
+  s_92ed303feeb135::t_9373b554622b67 1-2 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,2]}]}]}
+analysis_options.yaml
+  s_92ed303feeb135::t_9373b554622b67 1-28 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,28]}]}]}
+pubspec.yaml
+  s_92ed303feeb135::t_9373b554622b67 1-91 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,91]}]}]}
+macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json
+  s_92ed303feeb135::t_9373b554622b67 1-68 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,68]}]}]}
+lib/pages/exchange_page.dart
+  s_92ed303feeb135::t_449877b4256871 87-111 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a9126cb1552231d4ccd2","tool_type":"agent","tool_id":"Edit","line_ranges":[{"Range":[87,111]}]}]}
+  s_92ed303feeb135::t_cc3a10c6aa2c16 37,43,49,52,61,71,83,86,113-114,139,141-148,162,176,180,183-184,265,299 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a91e6cb1552231d4ccd5","tool_type":"agent","tool_id":"Edit","line_ranges":[{"Single":37},{"Single":43},{"Single":49},{"Single":52},{"Single":61},{"Single":71},{"Single":83},{"Single":86},{"Range":[113,114]},{"Single":139},{"Range":[141,148]},{"Single":162},{"Single":176},{"Single":180},{"Range":[183,184]},{"Single":265},{"Single":299}]}]}
+  s_92ed303feeb135::t_80c5cc5a5ceb88 28 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a90a6cb1552231d4cccf","tool_type":"agent","tool_id":"Edit","line_ranges":[{"Single":28}]}]}
+  s_92ed303feeb135::t_d6dc6b63964c02 248 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a9396cb1552231d4ccdb","tool_type":"agent","tool_id":"Edit","line_ranges":[{"Single":248}]}]}
+  s_92ed303feeb135::t_1f48c016edaa08 194-198 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ac436cb1552231d4cd35","tool_type":"agent","tool_id":"Edit","line_ranges":[{"Range":[194,198]}]}]}
+  s_92ed303feeb135::t_5d62b14f2ce2df 25-27
+  s_92ed303feeb135::t_4343cd8d9ade71 29-31,34-36
+  s_92ed303feeb135::t_0db5034dc788cd 38-42
+  s_92ed303feeb135::t_fa9a07ede2806d 44-48
+  s_92ed303feeb135::t_780201bb5bb09c 50-51
+  s_92ed303feeb135::t_69874a527f9e34 53-55,58-60
+  s_92ed303feeb135::t_d828f34d1c123d 62-64,68-70
+  s_92ed303feeb135::t_812183af0008f5 72-74,80-82
+  s_92ed303feeb135::t_7736b9cfea077d 84-85
+  s_92ed303feeb135::t_1ca5ec66d1d503 112
+  s_92ed303feeb135::t_0539780d7cf774 115-117,136-138
+  s_92ed303feeb135::t_19842bfd0dd636 140
+  s_92ed303feeb135::t_9481778ead2861 149-151,159-161
+  s_92ed303feeb135::t_3875a633c0d6e4 163-165,173-175
+  s_92ed303feeb135::t_c32450e7562140 177-179
+  s_92ed303feeb135::t_4101dcb56ad1c5 181-182
+  s_92ed303feeb135::t_d4b9d3fe0a2219 185-187,191-193
+  s_92ed303feeb135::t_c15f54111b48dd 199-201,245-247
+  s_92ed303feeb135::t_bdf99c5e21f9f9 249-251,262-264
+  s_92ed303feeb135::t_c0ae33c3f75ed1 266-268,296-298
+  s_92ed303feeb135::t_99e675e67822d4 300
+linux/flutter/generated_plugins.cmake
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-23 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,23]}]}]}
+.github/workflows/build.yml
+  s_92ed303feeb135::t_9325ccaf360431 1-128 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7706cb1552231d4cc94","tool_type":"agent","tool_id":"Write","line_ranges":[{"Range":[1,128]}]}]}
+android/app/src/main/res/values/styles.xml
+  s_92ed303feeb135::t_9373b554622b67 1-18 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,18]}]}]}
+windows/runner/runner.exe.manifest
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-14 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,14]}]}]}
+lib/data/currencies.dart
+  s_92ed303feeb135::t_9373b554622b67 1-79 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,79]}]}]}
+windows/flutter/CMakeLists.txt
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-109 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,109]}]}]}
+lib/theme/app_theme.dart
+  s_92ed303feeb135::t_56c5f10c19f691 1-4 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a8d76cb1552231d4ccc0","tool_type":"agent","tool_id":"Write","line_ranges":[{"Range":[1,4]}]}]}
+lib/main.dart
+  h_a20d12f47dc660 1-22,24-28
+  s_92ed303feeb135::t_1a955b717081ab 23 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ac396cb1552231d4cd32","tool_type":"agent","tool_id":"Edit","line_ranges":[{"Single":23}]}]}
+macos/Podfile
+  s_92ed303feeb135::t_9373b554622b67 1-42 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,42]}]}]}
+windows/flutter/generated_plugin_registrant.cc
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-11 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,11]}]}]}
+macos/Runner/AppDelegate.swift
+  s_92ed303feeb135::t_9373b554622b67 1-13 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,13]}]}]}
+linux/flutter/CMakeLists.txt
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-88 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,88]}]}]}
+windows/.gitignore
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-17 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,17]}]}]}
+macos/Runner/Base.lproj/MainMenu.xib
+  s_92ed303feeb135::t_9373b554622b67 1-343 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,343]}]}]}
+windows/runner/flutter_window.h
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-33 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,33]}]}]}
+windows/runner/main.cpp
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-43 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,43]}]}]}
+macos/Runner/Configs/AppInfo.xcconfig
+  s_92ed303feeb135::t_9373b554622b67 1-14 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,14]}]}]}
+android/app/src/main/res/drawable-v21/launch_background.xml
+  s_92ed303feeb135::t_9373b554622b67 1-12 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,12]}]}]}
+lib/widgets/currency_row.dart
+  s_92ed303feeb135::t_a90ff07701b75c 21 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54aa236cb1552231d4ccf7","tool_type":"agent","tool_id":"Edit","line_ranges":[{"Single":21}]}]}
+  s_92ed303feeb135::t_4288defc3b2f62 18-20
+  s_92ed303feeb135::t_d98b3c1e992072 22-24
+test/widget_test.dart
+  s_92ed303feeb135::t_9373b554622b67 1-12 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,12]}]}]}
+macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+  s_92ed303feeb135::t_9373b554622b67 1-8 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,8]}]}]}
+android/app/src/main/AndroidManifest.xml
+  s_92ed303feeb135::t_9373b554622b67 1-45 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,45]}]}]}
+linux/runner/CMakeLists.txt
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-26 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,26]}]}]}
+windows/CMakeLists.txt
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-108 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,108]}]}]}
+.metadata
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-36 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,36]}]}]}
+linux/CMakeLists.txt
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-128 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,128]}]}]}
+windows/flutter/generated_plugins.cmake
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-23 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,23]}]}]}
+android/.gitignore
+  s_92ed303feeb135::t_9373b554622b67 1-14 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,14]}]}]}
+macos/Runner.xcodeproj/project.pbxproj
+  s_92ed303feeb135::t_9373b554622b67 1-801 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,801]}]}]}
+windows/runner/win32_window.h
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-102 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,102]}]}]}
+macos/Runner/Configs/Release.xcconfig
+  s_92ed303feeb135::t_9373b554622b67 1-2 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,2]}]}]}
+.gitignore
+  s_92ed303feeb135::t_9373b554622b67 1-45 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,45]}]}]}
+windows/runner/resource.h
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-16 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,16]}]}]}
+macos/Runner/Release.entitlements
+  s_92ed303feeb135::t_9373b554622b67 1-10 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,10]}]}]}
+web/manifest.json
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-35 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,35]}]}]}
+android/app/src/main/kotlin/com/example/erate/MainActivity.kt
+  s_92ed303feeb135::t_9373b554622b67 1-5 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,5]}]}]}
+linux/flutter/generated_plugin_registrant.cc
+  s_92ed303feeb135::t_6fa70ab8c2e2a0 1-11 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54a7816cb1552231d4cc97","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,11]}]}]}
+android/app/build.gradle.kts
+  s_92ed303feeb135::t_9373b554622b67 1-44 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,44]}]}]}
+android/app/src/debug/AndroidManifest.xml
+  s_92ed303feeb135::t_9373b554622b67 1-7 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,7]}]}]}
+macos/Flutter/GeneratedPluginRegistrant.swift
+  s_92ed303feeb135::t_9373b554622b67 1-12 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a54ae4b6cb1552231d4cdac","tool_type":"agent","tool_id":"Shell","line_ranges":[{"Range":[1,12]}]}]}
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "0d548b67c794b7785bbab6180cd5a6159959b18e",
+  "prompts": {},
+  "humans": {
+    "h_a20d12f47dc660": {
+      "author": "tanglixin.fgrm <tanglixin.fgrm@bytedance.com>"
+    }
+  },
+  "sessions": {
+    "s_92ed303feeb135": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a54a1e26cb1552231d4cb9a",
+        "model": "openrouter-2o__max",
+        "display_model_name": "openrouter-2o"
+      },
+      "human_author": "tanglixin.fgrm <tanglixin.fgrm@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {
+    ".github/workflows/build.yml": [
+      {
+        "hash": "s_92ed303feeb135::t_9325ccaf360431",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              128
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7706cb1552231d4cc94",
+            "tool_type": "agent",
+            "tool_id": "Write",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  128
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    ".github/workflows/pages.yml": [
+      {
+        "hash": "s_92ed303feeb135::t_ba18c7a6ca3fa8",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              49
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7646cb1552231d4cc91",
+            "tool_type": "agent",
+            "tool_id": "Write",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  49
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    ".gitignore": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              45
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  45
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    ".metadata": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              36
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  36
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "README.md": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              46
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  46
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "analysis_options.yaml": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              28
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  28
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "android/.gitignore": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              14
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  14
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "android/app/build.gradle.kts": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              44
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  44
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "android/app/src/debug/AndroidManifest.xml": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              7
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  7
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "android/app/src/main/AndroidManifest.xml": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              45
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  45
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "android/app/src/main/kotlin/com/example/erate/MainActivity.kt": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              5
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  5
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "android/app/src/main/res/drawable-v21/launch_background.xml": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              12
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  12
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "android/app/src/main/res/drawable/launch_background.xml": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              12
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  12
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "android/app/src/main/res/values-night/styles.xml": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              18
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  18
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "android/app/src/main/res/values/styles.xml": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              18
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  18
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "android/app/src/profile/AndroidManifest.xml": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              7
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  7
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "android/build.gradle.kts": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              24
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  24
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "android/gradle.properties": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              3
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  3
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "android/gradle/wrapper/gradle-wrapper.properties": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              5
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  5
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "android/settings.gradle.kts": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              26
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  26
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lib/data/currencies.dart": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              79
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  79
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lib/main.dart": [
+      {
+        "hash": "s_92ed303feeb135::t_1a955b717081ab",
+        "line_ranges": [
+          {
+            "Single": 23
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ac396cb1552231d4cd32",
+            "tool_type": "agent",
+            "tool_id": "Edit",
+            "line_ranges": [
+              {
+                "Single": 23
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lib/models/currency.dart": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              13
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  13
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lib/pages/exchange_page.dart": [
+      {
+        "hash": "s_92ed303feeb135::t_449877b4256871",
+        "line_ranges": [
+          {
+            "Range": [
+              87,
+              111
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a9126cb1552231d4ccd2",
+            "tool_type": "agent",
+            "tool_id": "Edit",
+            "line_ranges": [
+              {
+                "Range": [
+                  87,
+                  111
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "hash": "s_92ed303feeb135::t_cc3a10c6aa2c16",
+        "line_ranges": [
+          {
+            "Single": 37
+          },
+          {
+            "Single": 43
+          },
+          {
+            "Single": 49
+          },
+          {
+            "Single": 52
+          },
+          {
+            "Single": 61
+          },
+          {
+            "Single": 71
+          },
+          {
+            "Single": 83
+          },
+          {
+            "Single": 86
+          },
+          {
+            "Range": [
+              113,
+              114
+            ]
+          },
+          {
+            "Single": 139
+          },
+          {
+            "Range": [
+              141,
+              148
+            ]
+          },
+          {
+            "Single": 162
+          },
+          {
+            "Single": 176
+          },
+          {
+            "Single": 180
+          },
+          {
+            "Range": [
+              183,
+              184
+            ]
+          },
+          {
+            "Single": 265
+          },
+          {
+            "Single": 299
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a91e6cb1552231d4ccd5",
+            "tool_type": "agent",
+            "tool_id": "Edit",
+            "line_ranges": [
+              {
+                "Single": 37
+              },
+              {
+                "Single": 43
+              },
+              {
+                "Single": 49
+              },
+              {
+                "Single": 52
+              },
+              {
+                "Single": 61
+              },
+              {
+                "Single": 71
+              },
+              {
+                "Single": 83
+              },
+              {
+                "Single": 86
+              },
+              {
+                "Range": [
+                  113,
+                  114
+                ]
+              },
+              {
+                "Single": 139
+              },
+              {
+                "Range": [
+                  141,
+                  148
+                ]
+              },
+              {
+                "Single": 162
+              },
+              {
+                "Single": 176
+              },
+              {
+                "Single": 180
+              },
+              {
+                "Range": [
+                  183,
+                  184
+                ]
+              },
+              {
+                "Single": 265
+              },
+              {
+                "Single": 299
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "hash": "s_92ed303feeb135::t_80c5cc5a5ceb88",
+        "line_ranges": [
+          {
+            "Single": 28
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a90a6cb1552231d4cccf",
+            "tool_type": "agent",
+            "tool_id": "Edit",
+            "line_ranges": [
+              {
+                "Single": 28
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "hash": "s_92ed303feeb135::t_d6dc6b63964c02",
+        "line_ranges": [
+          {
+            "Single": 248
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a9396cb1552231d4ccdb",
+            "tool_type": "agent",
+            "tool_id": "Edit",
+            "line_ranges": [
+              {
+                "Single": 248
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "hash": "s_92ed303feeb135::t_1f48c016edaa08",
+        "line_ranges": [
+          {
+            "Range": [
+              194,
+              198
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ac436cb1552231d4cd35",
+            "tool_type": "agent",
+            "tool_id": "Edit",
+            "line_ranges": [
+              {
+                "Range": [
+                  194,
+                  198
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lib/services/rate_service.dart": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              90
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  90
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lib/theme/app_theme.dart": [
+      {
+        "hash": "s_92ed303feeb135::t_56c5f10c19f691",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              4
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a8d76cb1552231d4ccc0",
+            "tool_type": "agent",
+            "tool_id": "Write",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  4
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lib/widgets/currency_row.dart": [
+      {
+        "hash": "s_92ed303feeb135::t_a90ff07701b75c",
+        "line_ranges": [
+          {
+            "Single": 21
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54aa236cb1552231d4ccf7",
+            "tool_type": "agent",
+            "tool_id": "Edit",
+            "line_ranges": [
+              {
+                "Single": 21
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lib/widgets/keypad.dart": [
+      {
+        "hash": "s_92ed303feeb135::t_d1e65b26935b91",
+        "line_ranges": [
+          {
+            "Range": [
+              20,
+              32
+            ]
+          },
+          {
+            "Range": [
+              34,
+              41
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ad9b6cb1552231d4cd87",
+            "tool_type": "agent",
+            "tool_id": "Edit",
+            "line_ranges": [
+              {
+                "Range": [
+                  20,
+                  32
+                ]
+              },
+              {
+                "Range": [
+                  34,
+                  41
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "hash": "s_92ed303feeb135::t_234d413c328bf2",
+        "line_ranges": [
+          {
+            "Single": 33
+          },
+          {
+            "Single": 82
+          },
+          {
+            "Single": 99
+          },
+          {
+            "Single": 124
+          },
+          {
+            "Single": 162
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ac1c6cb1552231d4cd29",
+            "tool_type": "agent",
+            "tool_id": "Edit",
+            "line_ranges": [
+              {
+                "Single": 33
+              },
+              {
+                "Single": 82
+              },
+              {
+                "Single": 99
+              },
+              {
+                "Single": 124
+              },
+              {
+                "Single": 162
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "hash": "s_92ed303feeb135::t_cbf7a50a52486a",
+        "line_ranges": [
+          {
+            "Single": 76
+          },
+          {
+            "Single": 80
+          },
+          {
+            "Single": 122
+          },
+          {
+            "Single": 159
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ac2c6cb1552231d4cd2f",
+            "tool_type": "agent",
+            "tool_id": "Edit",
+            "line_ranges": [
+              {
+                "Single": 76
+              },
+              {
+                "Single": 80
+              },
+              {
+                "Single": 122
+              },
+              {
+                "Single": 159
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "hash": "s_92ed303feeb135::t_630cb4564b587b",
+        "line_ranges": [
+          {
+            "Range": [
+              49,
+              50
+            ]
+          },
+          {
+            "Single": 55
+          },
+          {
+            "Single": 77
+          },
+          {
+            "Single": 81
+          },
+          {
+            "Single": 95
+          },
+          {
+            "Single": 123
+          },
+          {
+            "Range": [
+              160,
+              161
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ad036cb1552231d4cd66",
+            "tool_type": "agent",
+            "tool_id": "Edit",
+            "line_ranges": [
+              {
+                "Range": [
+                  49,
+                  50
+                ]
+              },
+              {
+                "Single": 55
+              },
+              {
+                "Single": 77
+              },
+              {
+                "Single": 81
+              },
+              {
+                "Single": 95
+              },
+              {
+                "Single": 123
+              },
+              {
+                "Range": [
+                  160,
+                  161
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "hash": "s_92ed303feeb135::t_884b499d166353",
+        "line_ranges": [
+          {
+            "Range": [
+              3,
+              4
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a8e16cb1552231d4ccc3",
+            "tool_type": "agent",
+            "tool_id": "Edit",
+            "line_ranges": [
+              {
+                "Range": [
+                  3,
+                  4
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "hash": "s_92ed303feeb135::t_60658c0bc927f0",
+        "line_ranges": [
+          {
+            "Range": [
+              42,
+              48
+            ]
+          },
+          {
+            "Range": [
+              51,
+              54
+            ]
+          },
+          {
+            "Range": [
+              56,
+              75
+            ]
+          },
+          {
+            "Range": [
+              78,
+              79
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54adaf6cb1552231d4cd8d",
+            "tool_type": "agent",
+            "tool_id": "Edit",
+            "line_ranges": [
+              {
+                "Range": [
+                  42,
+                  48
+                ]
+              },
+              {
+                "Range": [
+                  51,
+                  54
+                ]
+              },
+              {
+                "Range": [
+                  56,
+                  75
+                ]
+              },
+              {
+                "Range": [
+                  78,
+                  79
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "hash": "s_92ed303feeb135::t_2f510813c0485a",
+        "line_ranges": [
+          {
+            "Single": 114
+          },
+          {
+            "Range": [
+              146,
+              148
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a8e96cb1552231d4ccc6",
+            "tool_type": "agent",
+            "tool_id": "Edit",
+            "line_ranges": [
+              {
+                "Single": 114
+              },
+              {
+                "Range": [
+                  146,
+                  148
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "hash": "s_92ed303feeb135::t_a8be11325879bd",
+        "line_ranges": [
+          {
+            "Single": 145
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54aa2c6cb1552231d4ccfa",
+            "tool_type": "agent",
+            "tool_id": "Edit",
+            "line_ranges": [
+              {
+                "Single": 145
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "linux/.gitignore": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Single": 1
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Single": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "linux/CMakeLists.txt": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              128
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  128
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "linux/flutter/CMakeLists.txt": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              88
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  88
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "linux/flutter/generated_plugin_registrant.cc": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              11
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  11
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "linux/flutter/generated_plugin_registrant.h": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              15
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  15
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "linux/flutter/generated_plugins.cmake": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              23
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  23
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "linux/runner/CMakeLists.txt": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              26
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  26
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "linux/runner/main.cc": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              6
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  6
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "linux/runner/my_application.cc": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              144
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  144
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "linux/runner/my_application.h": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              18
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  18
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "macos/.gitignore": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              7
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  7
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "macos/Flutter/Flutter-Debug.xcconfig": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              2
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  2
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "macos/Flutter/Flutter-Release.xcconfig": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              2
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  2
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "macos/Flutter/GeneratedPluginRegistrant.swift": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              12
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  12
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "macos/Podfile": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              42
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  42
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "macos/Runner.xcodeproj/project.pbxproj": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              801
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  801
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              8
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  8
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              99
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  99
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "macos/Runner.xcworkspace/contents.xcworkspacedata": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              10
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  10
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              8
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  8
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "macos/Runner/AppDelegate.swift": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              13
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  13
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              68
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  68
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "macos/Runner/Base.lproj/MainMenu.xib": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              343
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  343
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "macos/Runner/Configs/AppInfo.xcconfig": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              14
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  14
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "macos/Runner/Configs/Debug.xcconfig": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              2
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  2
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "macos/Runner/Configs/Release.xcconfig": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              2
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  2
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "macos/Runner/Configs/Warnings.xcconfig": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              13
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  13
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "macos/Runner/DebugProfile.entitlements": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              14
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  14
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "macos/Runner/Info.plist": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              32
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  32
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "macos/Runner/MainFlutterWindow.swift": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              15
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  15
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "macos/Runner/Release.entitlements": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              10
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  10
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "macos/RunnerTests/RunnerTests.swift": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              12
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  12
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pubspec.yaml": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              91
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  91
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "test/widget_test.dart": [
+      {
+        "hash": "s_92ed303feeb135::t_9373b554622b67",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              12
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54ae4b6cb1552231d4cdac",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  12
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "web/index.html": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              38
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  38
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "web/manifest.json": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              35
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  35
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "windows/.gitignore": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              17
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  17
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "windows/CMakeLists.txt": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              108
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  108
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "windows/flutter/CMakeLists.txt": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              109
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  109
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "windows/flutter/generated_plugin_registrant.cc": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              11
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  11
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "windows/flutter/generated_plugin_registrant.h": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              15
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  15
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "windows/flutter/generated_plugins.cmake": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              23
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  23
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "windows/runner/CMakeLists.txt": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              40
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  40
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "windows/runner/Runner.rc": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              121
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  121
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "windows/runner/flutter_window.cpp": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              71
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  71
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "windows/runner/flutter_window.h": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              33
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  33
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "windows/runner/main.cpp": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              43
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  43
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "windows/runner/resource.h": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              16
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  16
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "windows/runner/runner.exe.manifest": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              14
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  14
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "windows/runner/utils.cpp": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              65
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  65
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "windows/runner/utils.h": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              19
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  19
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "windows/runner/win32_window.cpp": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              288
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  288
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "windows/runner/win32_window.h": [
+      {
+        "hash": "s_92ed303feeb135::t_6fa70ab8c2e2a0",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              102
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a54a7816cb1552231d4cc97",
+            "tool_type": "agent",
+            "tool_id": "Shell",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  102
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "remote_transcripts": {
+    "s_92ed303feeb135": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_1193f18ff3dc94": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_1a955b717081ab": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_1f48c016edaa08": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_234d413c328bf2": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_2f510813c0485a": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_449877b4256871": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_4a62b6d6f8afaa": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_4df438abc94a6f": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_56c5f10c19f691": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_60658c0bc927f0": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_630cb4564b587b": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_6fa70ab8c2e2a0": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_80c5cc5a5ceb88": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_8402212589ca42": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_884b499d166353": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_9325ccaf360431": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_9373b554622b67": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_a8be11325879bd": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_a90ff07701b75c": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_abfea69e1bb789": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_ba18c7a6ca3fa8": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_bc2a2ce7456f53": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_cbf7a50a52486a": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_cc3a10c6aa2c16": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_d1e65b26935b91": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_d6dc6b63964c02": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_ddc6e3a10a4f97": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_e7f90730c68fad": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_eb0c5ec85d44d6": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_f1842deba94781": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_92ed303feeb135::t_f3ce9c53bff6d2": {
+      "tool": "trae",
+      "conversation_id": "6a54a1e26cb1552231d4cb9a",
+      "session_id": "6a54a1e26cb1552231d4cb9a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    }
+  }
+}
