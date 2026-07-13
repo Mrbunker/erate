@@ -36,14 +36,25 @@ jobs:
           flutter-version: '3.35.4'
           channel: stable
           cache: true
+      - name: Ensure iOS platform
+        run: |
+          if [ ! -d ios ]; then
+            flutter create --platforms=ios --project-name erate --org com.example .
+          fi
       - run: flutter pub get
+      - name: CocoaPods install
+        working-directory: ios
+        run: |
+          pod repo update
+          pod install
       - run: flutter build ios --release --no-codesign
       - name: Package Runner.app
         run: |
-          cd build/ios/iphoneos
+          APP_PATH=$(find build/ios/iphoneos -maxdepth 2 -name 'Runner.app' -type d | head -n1)
+          echo "app: $APP_PATH"
           mkdir -p Payload
-          cp -R Runner.app Payload/
-          zip -qry ../../../erate-ios-unsigned.ipa Payload
+          cp -R "$APP_PATH" Payload/
+          zip -qry erate-ios-unsigned.ipa Payload
       - uses: actions/upload-artifact@v4
         with:
           name: ios-ipa-unsigned
@@ -79,12 +90,20 @@ jobs:
           flutter-version: '3.35.4'
           channel: stable
           cache: true
+      - uses: microsoft/setup-msbuild@v2
+      - name: Add VS dev shell
+        uses: ilammy/msvc-dev-cmd@v1
       - run: flutter config --enable-windows-desktop
       - run: flutter pub get
-      - run: flutter build windows --release
+      - name: Build windows
+        env:
+          CMAKE_GENERATOR: Visual Studio 17 2022
+        run: flutter build windows --release
       - name: Zip Windows build
         shell: pwsh
-        run: Compress-Archive -Path build/windows/x64/runner/Release/* -DestinationPath erate-windows.zip
+        run: |
+          $dir = if (Test-Path 'build/windows/x64/runner/Release') { 'build/windows/x64/runner/Release' } else { 'build/windows/runner/Release' }
+          Compress-Archive -Path "$dir/*" -DestinationPath erate-windows.zip
       - uses: actions/upload-artifact@v4
         with:
           name: windows-app
