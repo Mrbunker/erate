@@ -1,0 +1,16 @@
+lib/pages/exchange_page.dart
+  h_de2728c20b119a 12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "a533bcb6296b5aa0254b5787f9e2f8fdc3cb74e9",
+  "prompts": {},
+  "humans": {
+    "h_de2728c20b119a": {
+      "author": "Mrbunker <mrbunker@qq.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
