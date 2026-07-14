@@ -22,8 +22,8 @@ class CurrencyRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final activeColor = Theme.of(context).colorScheme.primary;
-    final amountColor = isActive ? activeColor : Colors.black87;
+    final scheme = Theme.of(context).colorScheme;
+    final amountColor = isActive ? scheme.primary : scheme.onSurface;
 
     return InkWell(
       onTap: onTap,
@@ -43,10 +43,11 @@ class CurrencyRow extends StatelessWidget {
                         '${currency.name} ${currency.code}',
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
-                        style: const TextStyle(fontSize: 16, color: Colors.black87),
+                        style: TextStyle(fontSize: 16, color: scheme.onSurface),
                       ),
                     ),
-                    const Icon(Icons.arrow_drop_down, size: 20, color: Colors.grey),
+                    Icon(Icons.arrow_drop_down,
+                        size: 20, color: scheme.onSurfaceVariant),
                   ],
                 ),
               ),

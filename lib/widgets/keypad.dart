@@ -16,7 +16,7 @@ class Keypad extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final orange = Theme.of(context).colorScheme.primary;
+    final scheme = Theme.of(context).colorScheme;
     return DecoratedBox(
       decoration: BoxDecoration(
         borderRadius: const BorderRadius.only(
@@ -32,7 +32,7 @@ class Keypad extends StatelessWidget {
         ],
       ),
       child: Material(
-        color: Colors.white,
+        color: scheme.surface,
         borderRadius: const BorderRadius.only(
           topLeft: Radius.circular(kAppRadius * 2),
           topRight: Radius.circular(kAppRadius * 2),
@@ -61,13 +61,17 @@ class Keypad extends StatelessWidget {
                     child: Column(
                       children: [
                         Expanded(
-                          child: _SideKey(label: 'AC', color: orange, onTap: onClear),
+                          child: _SideKey(
+                            label: 'AC',
+                            color: scheme.primary,
+                            onTap: onClear,
+                          ),
                         ),
                         const SizedBox(height: 12),
                         Expanded(
                           child: _SideKey(
                             icon: Icons.backspace_outlined,
-                            color: orange,
+                            color: scheme.primary,
                             onTap: onBackspace,
                           ),
                         ),
@@ -115,9 +119,9 @@ class _NumKey extends StatelessWidget {
       child: Center(
         child: Text(
           label,
-          style: const TextStyle(
+          style: TextStyle(
             fontSize: 32,
-            color: Colors.black87,
+            color: Theme.of(context).colorScheme.onSurface,
             fontWeight: FontWeight.w300,
           ),
         ),

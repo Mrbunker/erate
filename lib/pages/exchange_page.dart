@@ -185,19 +185,19 @@ class _ExchangePageState extends State<ExchangePage> {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final scheme = theme.colorScheme;
     final active = _selected[_activeIndex];
     return Focus(
       focusNode: _keyFocus,
       autofocus: true,
       onKeyEvent: _handleKey,
       child: Scaffold(
-        backgroundColor: const Color(0xFFF6F7F8),
         appBar: AppBar(
           title: const Text('汇率转换', style: TextStyle(fontSize: 16)),
           centerTitle: true,
-          backgroundColor: const Color(0xFFF6F7F8),
+          backgroundColor: theme.scaffoldBackgroundColor,
           elevation: 0,
-          foregroundColor: Colors.black87,
           actions: [
             IconButton(
               icon: _loading
@@ -206,12 +206,12 @@ class _ExchangePageState extends State<ExchangePage> {
                       height: 18,
                       child: CircularProgressIndicator(strokeWidth: 2),
                     )
-                  : const Icon(Icons.refresh, color: Colors.black54),
+                  : const Icon(Icons.refresh),
               tooltip: '刷新汇率',
               onPressed: _loading ? null : () => _refresh(force: true),
             ),
             IconButton(
-              icon: const Icon(Icons.add, color: Colors.black54),
+              icon: const Icon(Icons.add),
               tooltip: '添加币种',
               onPressed: _addRow,
             ),
@@ -235,10 +235,10 @@ class _ExchangePageState extends State<ExchangePage> {
                           ? DismissDirection.endToStart
                           : DismissDirection.none,
                       background: Container(
-                        color: Colors.red.shade100,
+                        color: scheme.errorContainer,
                         alignment: Alignment.centerRight,
                         padding: const EdgeInsets.only(right: 20),
-                        child: const Icon(Icons.delete, color: Colors.red),
+                        child: Icon(Icons.delete, color: scheme.onErrorContainer),
                       ),
                       onDismissed: (_) => _removeRow(index),
                       child: CurrencyRow(
