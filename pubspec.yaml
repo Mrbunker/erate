@@ -2,7 +2,7 @@ name: erate
 description: "Multi-currency exchange rate converter."
 publish_to: "none"
 
-version: 0.2.4+6
+version: 0.2.5+7
 
 environment:
   sdk: ^3.9.2
