@@ -31,9 +31,10 @@ jobs:
           KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
           KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
         run: |
-          echo "$KEYSTORE_BASE64" | base64 -d > android/app/erate-release.jks
+          KEYSTORE_PATH="$GITHUB_WORKSPACE/android/app/erate-release.jks"
+          echo "$KEYSTORE_BASE64" | base64 -d > "$KEYSTORE_PATH"
           cat > android/key.properties <<EOF
-          storeFile=app/erate-release.jks
+          storeFile=$KEYSTORE_PATH
           storePassword=$STORE_PASSWORD
           keyAlias=$KEY_ALIAS
           keyPassword=$KEY_PASSWORD
