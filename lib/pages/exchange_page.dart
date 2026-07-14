@@ -25,7 +25,7 @@ class _ExchangePageState extends State<ExchangePage> {
   ];
   int _activeIndex = 0;
   String _input = '1';
-  bool _pendingReplace = false;
+  bool _pendingReplace = true;
 
   Map<String, double> _rates = Map.of(kFallbackRatesToCny);
   bool _loading = false;
