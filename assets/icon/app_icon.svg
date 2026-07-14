@@ -6,14 +6,17 @@
     </linearGradient>
   </defs>
   <rect width="1024" height="1024" rx="220" fill="url(#bg)"/>
-  <g fill="none" stroke="#FFFFFF" stroke-width="56" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M264 384 H720"/>
-    <path d="M640 300 L720 384 L640 468"/>
-    <path d="M760 640 H304"/>
-    <path d="M384 556 L304 640 L384 724"/>
-  </g>
-  <g fill="#FFFFFF" font-family="'SF Pro Display','PingFang SC',sans-serif" font-weight="700">
-    <text x="200" y="880" font-size="220">¥</text>
-    <text x="620" y="880" font-size="220">$</text>
+  <g fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-width="72">
+      <path d="M320 260 L512 500"/>
+      <path d="M704 260 L512 500"/>
+      <path d="M512 500 L512 820"/>
+    </g>
+    <g stroke-width="44">
+      <path d="M660 600 L340 600"/>
+      <path d="M390 560 L340 600 L390 640"/>
+      <path d="M364 720 L684 720"/>
+      <path d="M634 680 L684 720 L634 760"/>
+    </g>
   </g>
 </svg>
