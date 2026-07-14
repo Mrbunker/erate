@@ -9,6 +9,8 @@ void main() {
 class ErateApp extends StatelessWidget {
   const ErateApp({super.key});
 
+  static const double _maxWidth = 480;
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -21,6 +23,15 @@ class ErateApp extends StatelessWidget {
           primary: const Color(0xFF00A9A5),
         ),
         scaffoldBackgroundColor: const Color(0xFFF6F7F8),
+      ),
+      builder: (context, child) => ColoredBox(
+        color: const Color(0xFFE5E7EB),
+        child: Center(
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(maxWidth: _maxWidth),
+            child: child,
+          ),
+        ),
       ),
       home: const ExchangePage(),
     );
