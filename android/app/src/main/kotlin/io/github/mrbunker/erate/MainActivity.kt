@@ -1,4 +1,4 @@
-package com.example.erate
+package io.github.mrbunker.erate
 
 import io.flutter.embedding.android.FlutterActivity
 
