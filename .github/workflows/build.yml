@@ -23,6 +23,21 @@ jobs:
           channel: stable
           cache: true
       - run: flutter pub get
+      - name: Decode release keystore
+        if: env.KEYSTORE_BASE64 != ''
+        env:
+          KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          STORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          echo "$KEYSTORE_BASE64" | base64 -d > android/app/erate-release.jks
+          cat > android/key.properties <<EOF
+          storeFile=app/erate-release.jks
+          storePassword=$STORE_PASSWORD
+          keyAlias=$KEY_ALIAS
+          keyPassword=$KEY_PASSWORD
+          EOF
       - run: flutter build apk --release --split-per-abi
       - uses: actions/upload-artifact@v4
         with:
