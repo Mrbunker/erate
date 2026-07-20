@@ -31,7 +31,6 @@ class _ExchangePageState extends State<ExchangePage> {
   bool _pendingReplace = true;
 
   Map<String, double> _rates = Map.of(kFallbackRatesToCny);
-  bool _loading = false;
   DateTime? _updatedAt;
   bool _fromCache = false;
 
@@ -64,14 +63,12 @@ class _ExchangePageState extends State<ExchangePage> {
   }
 
   Future<void> _refresh({bool force = false}) async {
-    setState(() => _loading = true);
     final snap = await _rateService.load(forceRefresh: force);
     if (!mounted) return;
     setState(() {
       _rates = snap.ratesToCny;
       _updatedAt = snap.updatedAt;
       _fromCache = snap.fromCache;
-      _loading = false;
     });
     if (force && mounted) {
       ScaffoldMessenger.of(context).showSnackBar(
@@ -212,7 +209,11 @@ class _ExchangePageState extends State<ExchangePage> {
   void _openAbout() {
     Navigator.of(context).push(
       MaterialPageRoute(
-        builder: (_) => AboutPage(updatedAt: _updatedAt, fromCache: _fromCache),
+        builder: (_) => AboutPage(
+          updatedAt: _updatedAt,
+          fromCache: _fromCache,
+          onRefresh: () => _refresh(force: true),
+        ),
       ),
     );
   }
@@ -234,24 +235,13 @@ class _ExchangePageState extends State<ExchangePage> {
           elevation: 0,
           actions: [
             IconButton(
-              icon: _loading
-                  ? const SizedBox(
-                      width: 18,
-                      height: 18,
-                      child: CircularProgressIndicator(strokeWidth: 2),
-                    )
-                  : const Icon(Icons.refresh),
-              tooltip: '刷新汇率',
-              onPressed: _loading ? null : () => _refresh(force: true),
-            ),
-            IconButton(
               icon: const Icon(Icons.add),
               tooltip: '添加币种',
               onPressed: _addRow,
             ),
             IconButton(
               icon: const Icon(Icons.more_horiz),
-              tooltip: '关于',
+              tooltip: '更多',
               onPressed: _openAbout,
             ),
           ],

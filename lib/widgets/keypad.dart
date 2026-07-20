@@ -33,7 +33,7 @@ class Keypad extends StatelessWidget {
         ],
       ),
       child: Material(
-        color: isDark ? scheme.surfaceContainerHigh : scheme.surface,
+        color: isDark ? scheme.surfaceContainerHighest : Colors.white,
         borderRadius: const BorderRadius.only(
           topLeft: Radius.circular(kAppRadius * 2),
           topRight: Radius.circular(kAppRadius * 2),

@@ -1,22 +1,44 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-class AboutPage extends StatelessWidget {
+class AboutPage extends StatefulWidget {
   const AboutPage({
     super.key,
     required this.updatedAt,
     required this.fromCache,
+    required this.onRefresh,
   });
 
   final DateTime? updatedAt;
   final bool fromCache;
+  final Future<void> Function() onRefresh;
 
   static const String _repoUrl = 'https://github.com/Mrbunker/erate';
   static const String _apiUrl = 'https://open.er-api.com/v6/latest/CNY';
 
+  @override
+  State<AboutPage> createState() => _AboutPageState();
+}
+
+class _AboutPageState extends State<AboutPage> {
+  bool _refreshing = false;
+  late DateTime? _updatedAt = widget.updatedAt;
+  late bool _fromCache = widget.fromCache;
+
   String _formatTime(DateTime t) {
     String p(int v) => v.toString().padLeft(2, '0');
     return '${t.year}-${p(t.month)}-${p(t.day)} ${p(t.hour)}:${p(t.minute)}';
+  }
+
+  Future<void> _handleRefresh() async {
+    setState(() => _refreshing = true);
+    await widget.onRefresh();
+    if (!mounted) return;
+    setState(() {
+      _refreshing = false;
+      _updatedAt = DateTime.now();
+      _fromCache = false;
+    });
   }
 
   @override
@@ -24,37 +46,48 @@ class AboutPage extends StatelessWidget {
     final scheme = Theme.of(context).colorScheme;
     return Scaffold(
       appBar: AppBar(
-        title: const Text('关于', style: TextStyle(fontSize: 16)),
+        title: const Text('更多', style: TextStyle(fontSize: 16)),
         centerTitle: true,
         elevation: 0,
       ),
       body: ListView(
         children: [
-          _Section(title: '源码'),
+          const _Section(title: '源码'),
           _CopyTile(
             icon: Icons.code,
             title: 'GitHub',
-            subtitle: _repoUrl,
-            value: _repoUrl,
+            subtitle: AboutPage._repoUrl,
+            value: AboutPage._repoUrl,
             color: scheme.primary,
           ),
           const SizedBox(height: 12),
-          _Section(title: '汇率数据'),
+          const _Section(title: '汇率数据'),
           _CopyTile(
             icon: Icons.cloud_outlined,
             title: 'API 来源',
-            subtitle: _apiUrl,
-            value: _apiUrl,
+            subtitle: AboutPage._apiUrl,
+            value: AboutPage._apiUrl,
             color: scheme.primary,
           ),
           ListTile(
             leading: Icon(Icons.update, color: scheme.primary),
             title: const Text('最后更新时间'),
             subtitle: Text(
-              updatedAt == null
+              _updatedAt == null
                   ? '尚未获取'
-                  : '${_formatTime(updatedAt!)}${fromCache ? '（缓存）' : ''}',
+                  : '${_formatTime(_updatedAt!)}${_fromCache ? '（缓存）' : ''}',
             ),
+            trailing: _refreshing
+                ? const SizedBox(
+                    width: 20,
+                    height: 20,
+                    child: CircularProgressIndicator(strokeWidth: 2),
+                  )
+                : IconButton(
+                    icon: const Icon(Icons.refresh),
+                    tooltip: '刷新汇率',
+                    onPressed: _handleRefresh,
+                  ),
           ),
         ],
       ),
