@@ -19,7 +19,10 @@ class ErateApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor: _seed, primary: _seed),
+        colorScheme: ColorScheme.fromSeed(seedColor: _seed, primary: _seed).copyWith(
+          surface: Colors.white,
+          surfaceContainerHighest: const Color(0xFFE5E7EB),
+        ),
         scaffoldBackgroundColor: const Color(0xFFF6F7F8),
       ),
       darkTheme: ThemeData(
@@ -28,17 +31,23 @@ class ErateApp extends StatelessWidget {
           seedColor: _seed,
           brightness: Brightness.dark,
         ),
+        scaffoldBackgroundColor: const Color(0xFF0F1113),
       ),
       themeMode: ThemeMode.system,
-      builder: (context, child) => ColoredBox(
-        color: Theme.of(context).colorScheme.surfaceContainerHighest,
-        child: Center(
-          child: ConstrainedBox(
-            constraints: const BoxConstraints(maxWidth: _maxWidth),
-            child: child,
+      builder: (context, child) {
+        final isDark = Theme.of(context).brightness == Brightness.dark;
+        return ColoredBox(
+          color: isDark
+              ? Theme.of(context).colorScheme.surfaceContainerHighest
+              : const Color(0xFFE5E7EB),
+          child: Center(
+            child: ConstrainedBox(
+              constraints: const BoxConstraints(maxWidth: _maxWidth),
+              child: child,
+            ),
           ),
-        ),
-      ),
+        );
+      },
       home: const ExchangePage(),
     );
   }

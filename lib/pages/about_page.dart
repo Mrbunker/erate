@@ -77,17 +77,25 @@ class _AboutPageState extends State<AboutPage> {
                   ? '尚未获取'
                   : '${_formatTime(_updatedAt!)}${_fromCache ? '（缓存）' : ''}',
             ),
-            trailing: _refreshing
-                ? const SizedBox(
-                    width: 20,
-                    height: 20,
-                    child: CircularProgressIndicator(strokeWidth: 2),
-                  )
-                : IconButton(
-                    icon: const Icon(Icons.refresh),
-                    tooltip: '刷新汇率',
-                    onPressed: _handleRefresh,
-                  ),
+            trailing: SizedBox(
+              width: 40,
+              height: 40,
+              child: Center(
+                child: _refreshing
+                    ? const SizedBox(
+                        width: 18,
+                        height: 18,
+                        child: CircularProgressIndicator(strokeWidth: 2),
+                      )
+                    : IconButton(
+                        padding: EdgeInsets.zero,
+                        constraints: const BoxConstraints(),
+                        icon: const Icon(Icons.refresh, size: 20),
+                        tooltip: '刷新汇率',
+                        onPressed: _handleRefresh,
+                      ),
+              ),
+            ),
           ),
         ],
       ),
@@ -136,7 +144,11 @@ class _CopyTile extends StatelessWidget {
       leading: Icon(icon, color: color),
       title: Text(title),
       subtitle: Text(subtitle, maxLines: 1, overflow: TextOverflow.ellipsis),
-      trailing: const Icon(Icons.copy, size: 18),
+      trailing: const SizedBox(
+        width: 40,
+        height: 40,
+        child: Center(child: Icon(Icons.copy, size: 20)),
+      ),
       onTap: () async {
         await Clipboard.setData(ClipboardData(text: value));
         if (!context.mounted) return;
