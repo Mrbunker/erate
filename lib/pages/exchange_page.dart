@@ -3,9 +3,11 @@ import 'package:flutter/services.dart';
 
 import '../data/currencies.dart';
 import '../models/currency.dart';
+import '../services/prefs_service.dart';
 import '../services/rate_service.dart';
 import '../widgets/currency_row.dart';
 import '../widgets/keypad.dart';
+import 'about_page.dart';
 
 class ExchangePage extends StatefulWidget {
   const ExchangePage({super.key});
@@ -16,6 +18,7 @@ class ExchangePage extends StatefulWidget {
 
 class _ExchangePageState extends State<ExchangePage> {
   final RateService _rateService = RateService();
+  final PrefsService _prefsService = PrefsService();
   final FocusNode _keyFocus = FocusNode();
 
   final List<Currency> _selected = [
@@ -29,11 +32,29 @@ class _ExchangePageState extends State<ExchangePage> {
 
   Map<String, double> _rates = Map.of(kFallbackRatesToCny);
   bool _loading = false;
+  DateTime? _updatedAt;
+  bool _fromCache = false;
 
   @override
   void initState() {
     super.initState();
+    _restoreSelected();
     _refresh();
+  }
+
+  Future<void> _restoreSelected() async {
+    final saved = await _prefsService.loadSelected();
+    if (!mounted || saved == null) return;
+    setState(() {
+      _selected
+        ..clear()
+        ..addAll(saved);
+      _activeIndex = 0;
+    });
+  }
+
+  void _persistSelected() {
+    _prefsService.saveSelected(_selected);
   }
 
   @override
@@ -48,6 +69,8 @@ class _ExchangePageState extends State<ExchangePage> {
     if (!mounted) return;
     setState(() {
       _rates = snap.ratesToCny;
+      _updatedAt = snap.updatedAt;
+      _fromCache = snap.fromCache;
       _loading = false;
     });
     if (force && mounted) {
@@ -158,6 +181,7 @@ class _ExchangePageState extends State<ExchangePage> {
     );
     if (picked != null) {
       setState(() => _selected[index] = picked);
+      _persistSelected();
     }
   }
 
@@ -172,6 +196,7 @@ class _ExchangePageState extends State<ExchangePage> {
     );
     if (picked != null) {
       setState(() => _selected.add(picked));
+      _persistSelected();
     }
   }
 
@@ -181,6 +206,15 @@ class _ExchangePageState extends State<ExchangePage> {
       _selected.removeAt(index);
       if (_activeIndex >= _selected.length) _activeIndex = 0;
     });
+    _persistSelected();
+  }
+
+  void _openAbout() {
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (_) => AboutPage(updatedAt: _updatedAt, fromCache: _fromCache),
+      ),
+    );
   }
 
   @override
@@ -214,6 +248,11 @@ class _ExchangePageState extends State<ExchangePage> {
               icon: const Icon(Icons.add),
               tooltip: '添加币种',
               onPressed: _addRow,
+            ),
+            IconButton(
+              icon: const Icon(Icons.more_horiz),
+              tooltip: '关于',
+              onPressed: _openAbout,
             ),
           ],
         ),
