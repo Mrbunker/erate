@@ -87,15 +87,10 @@ class _AboutPageState extends State<AboutPage> {
                         height: 18,
                         child: CircularProgressIndicator(strokeWidth: 2),
                       )
-                    : IconButton(
-                        padding: EdgeInsets.zero,
-                        constraints: const BoxConstraints(),
-                        icon: const Icon(Icons.refresh, size: 20),
-                        tooltip: '刷新汇率',
-                        onPressed: _handleRefresh,
-                      ),
+                    : const Icon(Icons.refresh, size: 20),
               ),
             ),
+            onTap: _refreshing ? null : _handleRefresh,
           ),
         ],
       ),
