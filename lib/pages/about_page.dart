@@ -77,20 +77,23 @@ class _AboutPageState extends State<AboutPage> {
                   ? '尚未获取'
                   : '${_formatTime(_updatedAt!)}${_fromCache ? '（缓存）' : ''}',
             ),
-            trailing: SizedBox(
-              width: 40,
-              height: 40,
-              child: Center(
-                child: _refreshing
-                    ? const SizedBox(
-                        width: 18,
-                        height: 18,
+            trailing: _refreshing
+                ? const SizedBox(
+                    width: 40,
+                    height: 40,
+                    child: Center(
+                      child: SizedBox(
+                        width: 20,
+                        height: 20,
                         child: CircularProgressIndicator(strokeWidth: 2),
-                      )
-                    : const Icon(Icons.refresh, size: 20),
-              ),
-            ),
-            onTap: _refreshing ? null : _handleRefresh,
+                      ),
+                    ),
+                  )
+                : IconButton(
+                    icon: const Icon(Icons.refresh, size: 22),
+                    tooltip: '刷新汇率',
+                    onPressed: _handleRefresh,
+                  ),
           ),
         ],
       ),
@@ -139,18 +142,20 @@ class _CopyTile extends StatelessWidget {
       leading: Icon(icon, color: color),
       title: Text(title),
       subtitle: Text(subtitle, maxLines: 1, overflow: TextOverflow.ellipsis),
-      trailing: const SizedBox(
-        width: 40,
-        height: 40,
-        child: Center(child: Icon(Icons.copy, size: 20)),
+      trailing: IconButton(
+        icon: const Icon(Icons.copy, size: 22),
+        tooltip: '复制',
+        onPressed: () async {
+          await Clipboard.setData(ClipboardData(text: value));
+          if (!context.mounted) return;
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text('已复制到剪贴板'),
+              duration: Duration(seconds: 1),
+            ),
+          );
+        },
       ),
-      onTap: () async {
-        await Clipboard.setData(ClipboardData(text: value));
-        if (!context.mounted) return;
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('已复制到剪贴板'), duration: Duration(seconds: 1)),
-        );
-      },
     );
   }
 }
