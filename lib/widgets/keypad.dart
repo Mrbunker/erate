@@ -17,6 +17,7 @@ class Keypad extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final scheme = Theme.of(context).colorScheme;
+    final isDark = Theme.of(context).brightness == Brightness.dark;
     return DecoratedBox(
       decoration: BoxDecoration(
         borderRadius: const BorderRadius.only(
@@ -25,14 +26,14 @@ class Keypad extends StatelessWidget {
         ),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withValues(alpha: 0.08),
+            color: Colors.black.withValues(alpha: isDark ? 0.4 : 0.08),
             blurRadius: 16,
             offset: const Offset(0, -4),
           ),
         ],
       ),
       child: Material(
-        color: scheme.surface,
+        color: isDark ? scheme.surfaceContainerHigh : scheme.surface,
         borderRadius: const BorderRadius.only(
           topLeft: Radius.circular(kAppRadius * 2),
           topRight: Radius.circular(kAppRadius * 2),
